@@ -1,7 +1,11 @@
 var express = require("express");
+var cors = require('cors');
+
 const PORT = process.env.PORT || 5000;
 
 var app = express();
+
+app.use(cors());
 
 const addresses = [
   { "id": "1", "street": "1 Test Street", "town": "Test Town", "postcode": "TE3 5ST" },
