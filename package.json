@@ -1,0 +1,15 @@
+{
+  "name": "demo-api",
+  "version": "0.0.1",
+  "description": "API to host demo endpoints on Heroku",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Hill",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
